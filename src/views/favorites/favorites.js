@@ -8,7 +8,7 @@ export class FavoritesView extends AbstractView {
 		super();
 		this.appState = appState;
 		this.appState = onChange(this.appState, this.appStateHook.bind(this));
-		this.setTitle('Мои книги');
+		this.setTitle('Мої книги');
 	}
 
 	destroy() {
@@ -24,7 +24,7 @@ export class FavoritesView extends AbstractView {
 	render() {
 		const main = document.createElement('div');
 		main.innerHTML = `
-			<h1>Избранное</h1>
+			<h1>Улюбленне</h1>
 		`;
 		main.append(new CardList(this.appState, { list: this.appState.favorites }).render());
 		this.app.innerHTML = '';
