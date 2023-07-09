@@ -1,5 +1,4 @@
 import { MainView } from './views/main/main.js';
-import './components/header/header.css';
 
 class App {
 	routes = [{ path: '', view: MainView }];
