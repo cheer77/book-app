@@ -22,9 +22,9 @@ export class Search extends DivComponent {
         class="search__input"
         value="${this.state.searchQuery ? this.state.searchQuery : ''}"
       />
-      <img src="/static/search.svg" alt="Иконка пошука" />
+      <img src="./static/search.svg" alt="Иконка пошука" />
     </div>
-    <button aria-label="Шукати"><img src="/static/search-white.svg" alt="Иконка пошука" /></button>
+    <button aria-label="Шукати"><img src="./static/search-white.svg" alt="Иконка пошука" /></button>
   `;
 		this.el.querySelector('button').addEventListener('click', this.serch.bind(this));
 		this.el.querySelector('input').addEventListener('keydown', (event) => {
