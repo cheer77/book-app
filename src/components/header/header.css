@@ -35,3 +35,13 @@
 	border-radius: 50%;
 	padding: 0 10px;
 }
+
+@media (max-width: 400px) {
+	.header {
+		margin-top: 10px;
+		flex-direction: column;
+	}
+	.menu {
+		margin-top: 15px;
+	}
+}
