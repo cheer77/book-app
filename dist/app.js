@@ -1099,8 +1099,8 @@
 					<button class="button__add ${existInFavorites ? 'button__active' : ''}">
 						${
 							existInFavorites
-								? '<img src="/static/favorites.svg" />'
-								: '<img src="/static/favorites-white.svg" />'
+								? '<img src="./static/favorites.svg" />'
+								: '<img src="./static/favorites-white.svg" />'
 						}
 					</button>
 				</div>
